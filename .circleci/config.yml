@@ -1,11 +1,11 @@
 version: "2.1"
 orbs:
-  go: circleci/go@1.7.3
+  go: circleci/go@1.11.0
 jobs:
   build:
     executor:
       name: go/default
-      tag: "1.17"
+      tag: "1.16"
     steps:
       - checkout
       - go/load-cache
