@@ -1,6 +1,6 @@
 module golang-gin-company-api
 
-go 1.22.0
+go 1.22
 
 require (
 	github.com/bytedance/sonic v1.11.3 // indirect
