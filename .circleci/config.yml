@@ -5,7 +5,6 @@ jobs:
   build:
     executor:
       name: go/default
-      tag: "1.20"
     steps:
       - checkout
       - go/load-cache
